@@ -14,6 +14,8 @@ Drone images with plastic waste in the riverine environment from Cambodia are pr
 
 ###### Running APLASTIC-Q
 - $ pip install -r requirements.txt
+- download PLD CNN and PLQ CNN and corresponding labels under this [link](https://cloud.dfki.de/owncloud/index.php/s/MPoQbNCgJiPFQMM)
+- store downloaded models and labels 'ml_models'
 - run aplasticq_waste_assessment.py
 - imagery stored in the directory 'input_data' will be analysed
 - result reports for the imagery will be saved in the directory 'output_sheets'
